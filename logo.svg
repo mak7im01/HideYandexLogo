@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+  <!-- Фон -->
+  <rect width="250" height="250" rx="40" fill="#1a1a1a"/>
+
+  <!-- Буква Я (стилизованная) -->
+  <text x="125" y="165" font-family="'Georgia', serif" font-size="150" font-weight="700"
+        fill="#c0a0ff" text-anchor="middle" opacity="0.9">Я</text>
+
+  <!-- Красная перечёркивающая линия -->
+  <line x1="38" y1="38" x2="212" y2="212" stroke="#ff4d4d" stroke-width="14" stroke-linecap="round"/>
+  <line x1="38" y1="38" x2="212" y2="212" stroke="#ff000044" stroke-width="20" stroke-linecap="round"/>
+</svg>

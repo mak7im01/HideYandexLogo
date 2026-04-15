@@ -1,0 +1,19 @@
+/* Скрываем SVG-иконки цветного лого Яндекс Музыки */
+use[href="/icons/sprite.svg#musicLogo"],
+use[href="/icons/sprite.svg#musicLogoLeftRu"] {
+    display: none !important;
+}
+
+/* Скрываем родительский SVG-элемент, если он содержит только лого */
+svg:has(use[href="/icons/sprite.svg#musicLogo"]),
+svg:has(use[href="/icons/sprite.svg#musicLogoLeftRu"]) {
+    display: none !important;
+}
+
+/* Скрываем по хэш-классам (обфусцированные имена) */
+.yvGpKZBZLwidMfMcVMR3,
+.ygfy3HHHNs5lMz5mm4ON,
+.CollectionPage_description__A3dny,
+.NavbarDesktop_logo__Z4jGx {
+    display: none !important;
+}
