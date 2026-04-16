@@ -1,0 +1,19 @@
+{
+    "name": "HideYandexLogo",
+    "libraryLogo": "logo.svg",
+    "image": "logo.svg",
+    "banner": "banner.svg",
+    "author": "dobryjigrok",
+    "description": "Скрывает цветное лого Яндекс Музыки",
+    "version": "1.0.1",
+    "css": "style.css",
+    "type": "script",
+    "script": "script.js",
+    "tags": [
+        "script",
+        "logo",
+        "hide"
+    ],
+    "installSource": "local",
+    "id": "ede729cbd6a04d7b9119e8f9"
+}
