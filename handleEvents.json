@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "title": "Навигация",
+      "items": [
+        {
+          "id": "hideCollapseButton",
+          "name": "Скрыть кнопку сайдбара",
+          "description": "Скрывает кнопку «Развернуть сайдбар» и «Свернуть сайдбар»",
+          "type": "button",
+          "bool": false,
+          "defaultParameter": false
+        }
+      ]
+    }
+  ]
+}
