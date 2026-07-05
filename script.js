@@ -1,6 +1,7 @@
 // HideYandexLogo — скрывает цветное лого Яндекс Музыки
 // Стили лого реализованы в style.css, скрипт управляет настройкой «Скрыть кнопку сайдбара»
 
+(function(){
 // ─── PulseSync Settings API ───────────────────────────────────────────────────
 
 function getAddonSettings(addonName) {
@@ -79,3 +80,5 @@ applySettings(transformSettings(settingsStore.getCurrent()));
 settingsStore.onChange(rawSettings => {
     applySettings(transformSettings(rawSettings));
 });
+
+})();
